@@ -1,0 +1,11 @@
+network-listen-local
+mode: fixture
+hostname: lab-host.example.com
+## listening
+tcp LISTEN 192.0.2.10:22
+## resolver
+nameserver 192.0.2.53
+search example.com
+## next
+Read the short checklist before any probe.
+This script did not send packets.
